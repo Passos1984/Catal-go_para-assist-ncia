@@ -1,0 +1,223 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #e9f0f5;
+    font-family: 'Segoe UI', Roboto, 'Helvetica Neue', sans-serif;
+    padding: 2rem 1.5rem;
+    color: #1a2c3e;
+}
+
+.catalog-container {
+    max-width: 1400px;
+    margin: 0 auto;
+    background: white;
+    border-radius: 2rem;
+    box-shadow: 0 20px 35px -12px rgba(0, 0, 0, 0.15);
+    overflow: hidden;
+}
+
+.header {
+    background: linear-gradient(135deg, #0b3b4f 0%, #1b5a6e 100%);
+    color: white;
+    padding: 1.5rem 2rem;
+    text-align: center;
+}
+
+.header h1 {
+    font-size: 1.9rem;
+    font-weight: 600;
+    margin-bottom: 0.3rem;
+}
+
+.subtitulo {
+    font-size: 1rem;
+    opacity: 0.9;
+}
+
+.tech-info {
+    background: #ffffff15;
+    backdrop-filter: blur(4px);
+    border-radius: 50px;
+    display: inline-block;
+    padding: 0.3rem 1rem;
+    margin-top: 0.8rem;
+    font-size: 0.85rem;
+}
+
+.contato-bar {
+    background: #d9e6f2;
+    padding: 0.8rem 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 12px;
+    border-bottom: 1px solid #cbdbe2;
+    font-weight: 500;
+}
+
+.contato-bar span {
+    background: #0b3b4f;
+    color: white;
+    padding: 0.3rem 1.2rem;
+    border-radius: 40px;
+    font-size: 0.9rem;
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.contato-bar span:first-child {
+    background: #2c6e49;
+}
+
+.contato-bar small {
+    color: #2c3e50;
+    font-size: 0.8rem;
+}
+
+.section {
+    padding: 1.2rem 2rem 2rem 2rem;
+    border-bottom: 1px solid #e2e8f0;
+}
+
+.section:last-of-type {
+    border-bottom: none;
+}
+
+.section-title {
+    font-size: 1.8rem;
+    font-weight: 700;
+    margin-bottom: 1.5rem;
+    padding-left: 0.5rem;
+    border-left: 7px solid #1b8c5e;
+    color: #0a2f44;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.grid-cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+    gap: 1.5rem;
+}
+
+.service-card {
+    background: #ffffff;
+    border-radius: 1.4rem;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+    transition: transform 0.2s ease, box-shadow 0.2s;
+    border: 1px solid #eef2f8;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+}
+
+.service-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 20px 25px -12px rgba(0, 0, 0, 0.12);
+    border-color: #cbdde9;
+}
+
+/* Nova classe para as fotos dos serviços */
+.card-image {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+    border-bottom: 1px solid #eef2f8;
+    background-color: #f8fafc;
+}
+
+.card-content {
+    padding: 1.3rem 1.2rem 1rem 1.2rem;
+    flex: 1;
+}
+
+.service-name {
+    font-size: 1.18rem;
+    font-weight: 700;
+    line-height: 1.3;
+    color: #1f3e4b;
+    margin-bottom: 0.5rem;
+}
+
+.service-price {
+    font-size: 1.5rem;
+    font-weight: 800;
+    color: #1b8c5e;
+    margin: 0.5rem 0 0.8rem 0;
+}
+
+.price-range {
+    font-size: 1.1rem;
+    font-weight: 600;
+    background: #f0f4f9;
+    display: inline-block;
+    padding: 0.2rem 0.8rem;
+    border-radius: 30px;
+}
+
+.btn-wa {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    background: #25D366;
+    color: white;
+    text-decoration: none;
+    font-weight: 600;
+    padding: 0.7rem 0.5rem;
+    margin: 0.8rem 1.2rem 1.3rem 1.2rem;
+    border-radius: 60px;
+    transition: 0.2s;
+    font-size: 0.9rem;
+}
+
+.btn-wa:hover {
+    background: #128C7E;
+    transform: scale(0.98);
+}
+
+.badge-fixo {
+    font-size: 0.7rem;
+    background: #eef2fa;
+    color: #2c6e8f;
+    border-radius: 20px;
+    padding: 0.2rem 0.7rem;
+    display: inline-block;
+    margin-bottom: 0.6rem;
+    font-weight: 500;
+}
+
+footer {
+    background: #f8fafc;
+    padding: 1.3rem 2rem;
+    text-align: center;
+    font-size: 0.8rem;
+    color: #4a627a;
+    border-top: 1px solid #e2edf2;
+}
+
+@media (max-width: 650px) {
+    body {
+        padding: 1rem;
+    }
+
+    .section {
+        padding: 1rem 1rem 1.5rem;
+    }
+
+    .section-title {
+        font-size: 1.5rem;
+    }
+
+    .contato-bar {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+}
