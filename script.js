@@ -26,31 +26,31 @@ function gerarLinkWhats(nomeServico, valorTexto) {
 // Dados: COMPUTADORES E NOTEBOOKS
 // Substitua o link da imagem pelo arquivo da sua foto, ex: "minha-foto.jpg"
 const computadores = [
-    { nome: "FORMATAÇÃO + BACKUP", preco: 150, imagem:"img/fomartacao_backup.png"},
-    { nome: "TROCA DE TELA DE NOTEBOOK", preco: 250, imagem: "img/troca_tela_notebook.png"},
-    { nome: "LIMPEZA INTERNA E PASTA TÉRMICA", preco: 120, imagem: "img/limpeza_interna_e_Pasta_terminca.png"},
-    { nome: "UPGRADE PARA SSD", preco: 180, imagem: "img/upgrade_ssd.png" },
-    { nome: "REPARO DE PLACA MÃE", preco: 350, imagem: "img/reparao_de_placa_mae.png"},
-    { nome: "TROCA DE TECLADO", preco: 180, imagem: "img/troca_de_teclado.png" }
+    { nome: "FORMATAÇÃO + BACKUP", preco: 150, imagem:"img/fomartacao_backup.jpeg"},
+    { nome: "TROCA DE TELA DE NOTEBOOK", preco: 250, imagem: "img/troca_tela_notebook.jpeg"},
+    { nome: "LIMPEZA INTERNA E PASTA TÉRMICA", preco: 120, imagem: "img/limpeza_interna_e_Pasta_terminca.jpeg"},
+    { nome: "UPGRADE PARA SSD", preco: 180, imagem: "img/upgrade_ssd.jpeg" },
+    { nome: "REPARO DE PLACA MÃE", preco: 350, imagem: "img/reparao_de_placa_mae.jpeg"},
+    { nome: "TROCA DE TECLADO", preco: 180, imagem: "img/troca_de_teclado.jpeg" }
 ];
 
 // Dados: IMPRESSORAS
 const impressoras = [
-    { nome: "DESENTUPIMENTO DE CABEÇA", preco: 150, imagem: "img/desentupimento_de_cabeça.png"},
-    { nome: "RESET DE ALMOFADAS", preco: 100, imagem: "img/resete_das_almofadas.png"},
-    { nome: "REPARO NO TRACIONADOR DE PAPEL", preco: 130, imagem: "img/tracionador_de_papel.png"},
-    { nome: "MANUTENÇÃO PREVENTIVA", preco: 120, imagem: "img/manutencao_preventiva.png"}
+    { nome: "DESENTUPIMENTO DE CABEÇA", preco: 150, imagem: "img/desentupimento_de_cabeça.jpeg"},
+    { nome: "RESET DE ALMOFADAS", preco: 100, imagem: "img/resete_das_almofadas.jpeg"},
+    { nome: "REPARO NO TRACIONADOR DE PAPEL", preco: 130, imagem: "img/tracionador_de_papel.jpeg"},
+    { nome: "MANUTENÇÃO PREVENTIVA", preco: 120, imagem: "img/manutencao_preventiva.jpeg"}
 ];
 
 // Dados: SOFTWARE E REDES
 const softwareRedes = [
-   { nome: "INSTALAÇÃO PACOTE OFFICE", preco: 80, imagem: "img/instalacao_pacote_office.png"},
-    { nome: "REMOÇÃO DE VÍRUS / MALWARE", preco: 100, imagem: "img/remocao_de_virus.png"},
-    { nome: "RECUPERAÇÃO DE DADOS", preco: 300, imagem: "img/recuperacao_de_dados.png"},
+   { nome: "INSTALAÇÃO PACOTE OFFICE", preco: 80, imagem: "img/instalacao_pacote_office.jpeg"},
+    { nome: "REMOÇÃO DE VÍRUS / MALWARE", preco: 100, imagem: "img/remocao_de_virus.jpeg"},
+    { nome: "RECUPERAÇÃO DE DADOS", preco: 300, imagem: "img/recuperacao_de_dados.jpeg"},
 ];
 // PLANOS PARA EMPRESAS (faixa)
 const empresasPlanos = [
-    { nome: "CONTRATO MANUTENÇÃO MENSAL", faixa: "R$400 a R$900", precoMin: 400, precoMax: 900, imagem: "img/manutencao_mensal.png"}
+    { nome: "CONTRATO MANUTENÇÃO MENSAL", faixa: "R$400 a R$900", precoMin: 400, precoMax: 900, imagem: "img/manutencao_mensal.jpeg"}
 ];
 
 // Renderiza cards com preço fixo e imagem
